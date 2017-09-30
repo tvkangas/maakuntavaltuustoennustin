@@ -38,7 +38,8 @@ ui <- fluidPage(theme = "tyylitiedosto.css",
            mainPanel(
              h1("Maakuntavaltuustoennustin 3000"),
              p("Maakuntavaltuustoennustin 3000 on sovellus, jonka tarkoituksena on luoda erilaisia ennusteita maakuntauudistuksen mukana tulevista
-               maakuntavaltuustoista. Käyttäjällä on mahdollisuus valita aineistoksi vuoden 2017 kuntavaalien tai vuoden 2015 eduskuntavaalien tulokset."),
+               maakuntavaltuustoista. Käyttäjällä on mahdollisuus valita aineistoksi vuoden 2017 kuntavaalien tai vuoden 2015 eduskuntavaalien tulokset. Eduskuntavaalien kohdalla aineistoa
+               on muokattu kuntaliitosten takia siten, että kaikki äänet yhdistetty isäntäkunnan äänimäärään."),
              h2("Laskentamenetelmät"),
              p("Ennusteen voi määrittää kahdella tavalla. Menetelmä 'suoraan äänimääristä' määrittää valtuuston rakenteen siten, että valittu aineisto olisi maakuntavaalien tulos. Poikkeuksena on kuitenkin se, että äänestystulokset on 
 anonymisoitu ehdokkaiden suhteen. Tämä vaikuttaa vain eduskuntavaaleihin, joissa sama ehdokas kerää ääniä koko vaalipiirissä. Laskelmassa kuitenkin huomioidaan erikseen ehdokkaan äänet yhdessä kunnassa. Tämän avulla ennuste viedään 
